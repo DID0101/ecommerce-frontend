@@ -122,7 +122,7 @@ export default function ProductBox({
         <Title href={url}>{title}</Title>
         <PriceRow>
           <Price>
-            ${price}
+            {price} TL
           </Price>
           <FlyingButton _id={_id} src={images?.[0]}>Sepete ekle</FlyingButton>
         </PriceRow>
